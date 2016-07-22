@@ -53,7 +53,7 @@ static const int de_is_support_smbl[] = {
 
 static const int de_supported_output_types[] = {
 	/* DISP0 */
-	4, /*HDMI*/
+	1, /*LCD*/
 	/* DISP1 */
 	4, /*HDMI*/
 };
