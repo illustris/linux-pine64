@@ -112,8 +112,8 @@ int disp_al_manager_apply(unsigned int disp, struct disp_manager_data *data)
 		else
 			tcon1_hdmi_color_remap(al_priv.disp_device[disp],0);
 	}
-	de_update_de_frequency(data->config.de_freq);
 
+	de_update_de_frequency(data->config.de_freq);
 	return de_al_mgr_apply(disp, data);
 }
 
