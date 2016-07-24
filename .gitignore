@@ -34,6 +34,7 @@ Module.markers
 *.xz
 *.lzo
 *.patch
+*.rej
 *.gcno
 standby.code
 resume1.code
